@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Head
+  - Rshoulder
+  - Relbow
+  - Rhand
+  - Lshoulder
+  - Lelbow
+  - Lhand
+  - Rpelvis
+  - RKnee
+  - Rfoot
+  - Lpelvis
+  - Lknee
+  - Lfoot
   layers:
   - Default
   - TransparentFX

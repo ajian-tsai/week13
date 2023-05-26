@@ -5,6 +5,7 @@ using UnityEngine;
 public class wall : MonoBehaviour
 {
     private float speed = 8.0f;
+    
     void Update()
     {
         gameObject.transform.Translate(Vector3.up * speed * Time.deltaTime);
@@ -12,5 +13,7 @@ public class wall : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        
     }
 }
